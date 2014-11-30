@@ -51,7 +51,7 @@ en:
       flash:
         passwords_dont_match: Hey, your password confirmation didn't match. Try again.
       subtitle: 'There is only one user: you.'
-      title: Stringer is
+      title: Ovr is
   flash:
     cookies_required: Well, this is awkward. Cookies are required for the app to work properly.
     js_required: Well, this is awkward. Javascript is required for the app to work properly.
@@ -70,7 +70,7 @@ en:
     import: Import
     logout: Logout
     support: Support
-    title: stringer | your rss buddy
+    title: ovr.
   partials:
     action_bar:
       add_feed: Add a feed
