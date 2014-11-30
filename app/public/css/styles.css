@@ -106,8 +106,6 @@ ul#story-list, ul#feed-list {
 }
 
 li.story, li.feed {
-  width: 33%;
-  display:inline-block;
   margin-bottom: 7px;
   background-color: white;
   border-radius: 5px;
