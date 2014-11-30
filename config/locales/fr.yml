@@ -1,0 +1,156 @@
+fr:
+  archive:
+    next: Suivant
+    of: de
+    previous: Précédent
+    sorry: Désolé, vous n'avez encore rien lu !
+  date:
+    abbr_month_names:
+    - 
+    - jan.
+    - fév.
+    - mar.
+    - avr.
+    - mai
+    - juin
+    - juil.
+    - août
+    - sept.
+    - oct.
+    - nov.
+    - déc.
+  feeds:
+    add:
+      description: Collez ici l'URL du blog que vous souhaitez lire.
+      fields:
+        feed_url: URL du flux
+        submit: Ajouter
+      flash:
+        added_successfully: Le nouveau flux a été ajouté. Patientez quelques instants.
+        already_subscribed_error: Vous suivez déjà ce flux...
+        feed_not_found_error: Nous n'avons pas pu trouver ce flux. Essayez de nouveau.
+      title: Besoin de nouveaux articles ?
+    edit:
+      fields:
+        feed_name: 
+        feed_url: 
+        submit: 
+      flash:
+        updated_successfully: 
+    index:
+      add: ajouter
+      add_some_feeds: Vous devriez %{add} quelques flux.
+  first_run:
+    password:
+      anti_social: anti-social
+      description: Choisissez un mot de passe pour être le seul à lire vos articles.
+      fields:
+        next: Suivant
+        password: Mot de passe
+        password_confirmation: Confirmez
+      flash:
+        passwords_dont_match: Les mots de passe sont différents. Essayez à nouveau.
+      subtitle: 'Il n''y a qu''un seul utilisateur : vous.'
+      title: Stringer est
+  flash:
+    cookies_required: 'C''est embêtant : les cookies sont obligatoires pour le bon fonctionnement de l''application.'
+    js_required: 'C''est embêtant : Javascript est obligatoire pour le bon fonctionnement de l''application.'
+  import:
+    description: '%{link} vos flux provenant de Google Reader et importez-les.'
+    export: Exportez
+    fields:
+      import: Importez
+      not_now: Pas maintenant
+    subtitle: Configurons vos flux.
+    title: Bienvenue à bord.
+  layout:
+    back_to_work: Retournez au travail, fénéant !
+    export: Export
+    hey: Hé !
+    import: Import
+    logout: Déconnection
+    support: Aide
+    title: stringer | votre compagnon rss
+  partials:
+    action_bar:
+      add_feed: Ajouter un flux
+      archived_stories: Articles archivés
+      mark_all: Tout marquer comme lu
+      refresh: Rafraîchir
+      starred_stories: Articles favoris
+      view_feeds: Voir vos flux
+    feed:
+      last_fetched:
+        never: Jamais
+      last_updated: Dernière mise à jour
+      status_bubble:
+        green: Succès !
+        red: Erreur d'analyse (n'ayant jamais fonctionné avant)
+        yellow: Erreur d'analyse (probablement temporaire)
+    feed_action_bar:
+      add_feed: Ajouter un flux
+      archived_stories: Articles archivés
+      feeds: Voir vos flux
+      home: Revenir aux Articles
+      starred_stories: Articles favoris
+    shortcuts:
+      keys:
+        a: Ajouter un flux
+        bv: Aller à l'URL de l'article
+        f: 
+        jk: Article suivant/précédent
+        left: Page précédente
+        m: Marquer ceci comme lu/non lu
+        np: Vers le bas/vers le haut
+        oenter: Ouvrir/fermer l'article
+        or: ou
+        r: Rafraîchir
+        right: Page suivante
+        s: Mettre/enlever cet article des favoris
+        shifta: Tout marquer comme lu
+      title: Raccourcis clavier
+    zen:
+      archive: voir toutes les entrées
+      go_make: allez faire quelque chose
+      gtfo: Maintenant cessez de lire et
+      rss_zero: Vous avez atteint RSS Zéro&trade;
+  sessions:
+    destroy:
+      flash:
+        logged_out_successfully: Vous avez été déconnecté !
+    new:
+      fields:
+        password: Mot de passe
+        submit: Identifiant
+      flash:
+        wrong_password: Ce n'est pas le bon mot de passe. Essayez encore.
+      rss: RSS
+      subtitle: Content de vous revoir, l'ami.
+      title: Stringer parle le
+  starred:
+    next: Suivant
+    of: de
+    previous: Précédent
+    sorry: Désolé, vous n'avez pas encore d'articles favoris!
+  stories:
+    keep_unread: Marquer comme non lu
+  time:
+    formats:
+      default: '%d %b %H:%M'
+  tutorial:
+    add_feed: ajouter un flux
+    as_read: comme lu
+    click_to_read: (cliquer pour lire)
+    description: Nous récupérons quelques articles à lire, donnez-nous une seconde.
+    heroku_hourly_task: 
+    heroku_one_more_thing: 
+    heroku_scheduler: 
+    mark_all: tout marquer
+    ready: Ok, c'est prêt !
+    refresh: rafraîchir
+    simple: simple
+    start: Commencez à lire
+    subtitle: Voici le manuel d'utilisation.
+    title: 'Stringer est '
+    your_feeds: vos flux
+    your_stories: vos articles

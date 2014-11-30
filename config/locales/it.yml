@@ -1,0 +1,156 @@
+it:
+  archive:
+    next: Successivo
+    of: di
+    previous: Precedente
+    sorry: Spiacente, non hai ancora letto nessuna storia!
+  date:
+    abbr_month_names:
+    - 
+    - gen
+    - feb
+    - mar
+    - apr
+    - mag
+    - giu
+    - lug
+    - ago
+    - set
+    - ott
+    - nov
+    - dic
+  feeds:
+    add:
+      description: Incolla l'URL del blog che desideri leggere.
+      fields:
+        feed_url: URL del feed
+        submit: Aggiungi
+      flash:
+        added_successfully: Abbiamo aggiunto il tuo nuovo feed. Ripassa tra qualche istante.
+        already_subscribed_error: Sei già sottoscritto a questo feed...
+        feed_not_found_error: Non siamo riusciti a trovare il feed. Riprova.
+      title: Bisogno di nuove storie?
+    edit:
+      fields:
+        feed_name: 
+        feed_url: 
+        submit: 
+      flash:
+        updated_successfully: 
+    index:
+      add: aggiungere
+      add_some_feeds: Hey, dovresti %{add} qualche feed.
+  first_run:
+    password:
+      anti_social: anti-social
+      description: Scegli una password, così che solo tu possa leggere le tue storie.
+      fields:
+        next: Avanti
+        password: Password
+        password_confirmation: Conferma
+      flash:
+        passwords_dont_match: Hey, le password non combaciano. Riprova.
+      subtitle: 'Esiste un solo utente: tu.'
+      title: Stringer è
+  flash:
+    cookies_required: Beh, questo sì che è strano. L'app necessita di cookie per funzionare correttamente.
+    js_required: Beh, questo sì che è strano. L'app necessita di Javascript attivato per funzionare correttamente.
+  import:
+    description: '%{link} i tuoi feed da Google Reader e importali qui.'
+    export: Esporta
+    fields:
+      import: Importa
+      not_now: Non adesso
+    subtitle: Impostiamo i tuoi feed.
+    title: Benvenuto a bordo.
+  layout:
+    back_to_work: Torna a lavorare, fannullone!
+    export: Esporta
+    hey: Hey!
+    import: Importa
+    logout: Logout
+    support: Supporto
+    title: stringer | your rss buddy
+  partials:
+    action_bar:
+      add_feed: Aggiungi un feed
+      archived_stories: Storie archiviate
+      mark_all: Segna tutte come lette
+      refresh: Aggiorna
+      starred_stories: Storie preferite
+      view_feeds: Mostra i feed
+    feed:
+      last_fetched:
+        never: Mai
+      last_updated: Ultimo aggiornamento il
+      status_bubble:
+        green: Successo!
+        red: Errore di analisi (e mai lavorato prima, neanche)
+        yellow: Errore di analisi (probabilmente temporanea)
+    feed_action_bar:
+      add_feed: Aggiungi un feed
+      archived_stories: Storie archiviate
+      feeds: Mostra i feed
+      home: Ritorna alle Storie
+      starred_stories: Storie preferite
+    shortcuts:
+      keys:
+        a: Aggiungi un feed
+        bv: Vai all'URL della storia
+        f: 
+        jk: Prossima/precedente storia
+        left: Pagina precedente
+        m: Segna come letto/non letto
+        np: Spostati giù/su
+        oenter: Apri/chiudi la storia
+        or: o
+        r: Aggiorna
+        right: Pagina successiva
+        s: Segna come preferita/non preferita
+        shifta: Segna tutte le storie come lette
+      title: Shortcuts da tastiera
+    zen:
+      archive: vai all'archivio
+      go_make: vai a fare altro
+      gtfo: Ora piantala di leggere blog e
+      rss_zero: Hai raggiunto l'RSS Zero&trade;
+  sessions:
+    destroy:
+      flash:
+        logged_out_successfully: Hai effettuato logout correttamente!
+    new:
+      fields:
+        password: Password
+        submit: Login
+      flash:
+        wrong_password: Password incorretta. Riprova.
+      rss: RSS
+      subtitle: Benvenuto, amico.
+      title: Stringer parla
+  starred:
+    next: Prossimo
+    of: di
+    previous: Precedente
+    sorry: Spiacente, non hai ancora segnato nessuna storia come preferita!
+  stories:
+    keep_unread: Mantieni come non letta
+  time:
+    formats:
+      default: '%d %b, %H:%M'
+  tutorial:
+    add_feed: aggiungi feed
+    as_read: come lette
+    click_to_read: (clicca per leggere)
+    description: Stiamo importando alcune storie da leggere, dacci un secondo.
+    heroku_hourly_task: 
+    heroku_one_more_thing: 
+    heroku_scheduler: 
+    mark_all: segna tutte
+    ready: Okay, è pronto!
+    refresh: aggiorna
+    simple: semplice
+    start: Inizia a leggere
+    subtitle: Ecco il manuale d'istruzioni.
+    title: 'Stringer è '
+    your_feeds: i tuoi feed
+    your_stories: le tue storie
