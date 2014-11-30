@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  database: stringer_dev
+  database: ovr_dev
   encoding: unicode
   pool: 5
 
