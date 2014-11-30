@@ -4,7 +4,7 @@
 
 <% unless @read_stories.empty? %>
 <div id="stories">
-  <ul id="story-list">
+  <ul id="story-list" class="row-fluid">
     <% @read_stories.each do |story| %>
       <%= render_partial :story, { story: story } %>
     <% end %>
