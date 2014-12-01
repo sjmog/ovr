@@ -21,64 +21,64 @@ en:
     - Dec
   feeds:
     add:
-      description: Paste in the URL of the blog you want to read.
+      description: Paste in the website URL of the news source you want to add to Ovr.
       fields:
-        feed_url: Feed URL
+        feed_url: Website URL
         submit: Add
       flash:
-        added_successfully: We've added your new feed. Check back in a bit.
-        already_subscribed_error: You are already subscribed to this feed...
-        feed_not_found_error: We couldn't find that feed. Try again.
-      title: Need new stories?
+        added_successfully: We've added your news source. Check back in a bit.
+        already_subscribed_error: You are already subscribed to this news source!
+        feed_not_found_error: We couldn't find that website. Try again.
+      title: Need some news?
     edit:
       fields:
-        feed_name: Feed Name
-        feed_url: Feed URL
+        feed_name: Source Name
+        feed_url: Source URL
         submit: Save
       flash:
-        updated_successfully: Updated the feed for ya'!
+        updated_successfully: All updated!
     index:
       add: add
-      add_some_feeds: Hey, you should %{add} some feeds.
+      add_some_feeds: Hey, you should %{add} some news sources.
   first_run:
     password:
       anti_social: anti-social
-      description: Let's pick a password so only you can read your stories.
+      description: Let's pick a password so only you can read your personalised news.
       fields:
         next: Next
         password: Password
         password_confirmation: Confirm
       flash:
-        passwords_dont_match: Hey, your password confirmation didn't match. Try again.
+        passwords_dont_match: Your password confirmation didn't match. Try again.
       subtitle: 'There is only one user: you.'
-      title: Ovr is
+      title: Ovr
   flash:
-    cookies_required: Well, this is awkward. Cookies are required for the app to work properly.
-    js_required: Well, this is awkward. Javascript is required for the app to work properly.
+    cookies_required: Cookies are required for Ovr to work properly. Please enable them to get started.
+    js_required: Javascript is required for Ovr to work properly. Please enable it to get started.
   import:
     description: '%{link} your feeds from Google Reader and import them.'
     export: Export
     fields:
       import: Import
       not_now: Not now
-    subtitle: Let's setup your feeds.
+    subtitle: Let's setup your news sources.
     title: Welcome aboard.
   layout:
-    back_to_work: Get back to work, slacker!
+    back_to_work: Ovr 2014.
     export: Export
-    hey: Hey!
+    hey: Copyright
     import: Import
-    logout: Logout
+    logout: Log out
     support: Support
     title: ovr.
   partials:
     action_bar:
-      add_feed: Add a feed
-      archived_stories: Archived stories
+      add_feed: Add a news source
+      archived_stories: Older news
       mark_all: Mark all as read
       refresh: Refresh
-      starred_stories: Starred stories
-      view_feeds: View feeds
+      starred_stories: Favourite articles
+      view_feeds: View news sources
     feed:
       last_fetched:
         never: Never
@@ -88,32 +88,35 @@ en:
         red: Error parsing (and it ain't never worked before, either)
         yellow: Error parsing (probably temporary)
     feed_action_bar:
-      add_feed: Add a feed
-      archived_stories: Archived stories
-      feeds: View feeds
-      home: Return to Stories
-      starred_stories: Starred stories
+      add_feed: Add a news source
+      archived_stories: Older news
+      feeds: View news sources
+      home: Return to articles
+      starred_stories: Favourite articles
     shortcuts:
       keys:
-        a: Add a feed
-        bv: Go to story URL
-        f: Go to feeds page
-        jk: Next/previous story
+        a: Add a news source
+        bv: Go to article website
+        f: Go to news sources page
+        jk: Next/previous article
         left: Previous page
-        m: Mark item as read/unread
+        m: Mark article as read/unread
         np: Move down/move up
-        oenter: Toggle story open/closed
+        oenter: Toggle article open/closed
         or: or
         r: Refresh
         right: Next page
-        s: Mark item as starred/unstarred
+        s: Mark article as starred/unstarred
         shifta: Mark all as read
       title: Keyboard shortcuts
     zen:
-      archive: view all items
-      go_make: go make something
-      gtfo: Now stop reading blogs and
-      rss_zero: You've reached RSS Zero&trade;
+      archive: view older news
+      go_make: most up-to-date person in the world
+      gtfo: You might be the
+      rss_zero_evening: That's all for this evening
+      rss_zero_daytime: That's all for today
+      rss_zero_morning: That's all for this morning
+      rss_zero_nighttime: That's all for tonight
   sessions:
     destroy:
       flash:
@@ -126,7 +129,7 @@ en:
         wrong_password: That's the wrong password. Try again.
       rss: RSS
       subtitle: Welcome back, friend.
-      title: Stringer speaks
+      title: Ovr speaks
   starred:
     next: Next
     of: of
@@ -138,10 +141,10 @@ en:
     formats:
       default: '%b %d, %H:%M'
   tutorial:
-    add_feed: add feed
+    add_feed: add news source
     as_read: as read
     click_to_read: (click to read)
-    description: We're getting you some stories to read, give us a second.
+    description: We're getting you some articles to read; give us a second.
     heroku_hourly_task: You need to add an hourly task to check for new stories.
     heroku_one_more_thing: One more thing...
     heroku_scheduler: Go to the Heroku Scheduler and add this task
@@ -151,6 +154,6 @@ en:
     simple: simple
     start: Start Reading
     subtitle: Here's the instruction manual.
-    title: 'Stringer is '
-    your_feeds: your feeds
-    your_stories: your stories
+    title: 'Ovr is '
+    your_feeds: your news
+    your_stories: your articles

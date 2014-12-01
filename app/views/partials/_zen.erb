@@ -1,6 +1,14 @@
 <div id="zen">
   <span id="zero">&ndash; 0 &ndash;</span>
-  <p><%= t('partials.zen.rss_zero') %></p>
+  <% if Time.now.hour < 12 && Time.now.hour > 5 %>
+  <p><%= t('partials.zen.rss_zero_morning') %></p>
+  <% elsif Time.now.hour < 18 && Time.now.hour > 11 %>
+  <p><%= t('partials.zen.rss_zero_daytime') %></p>
+  <% elsif Time.now.hour < 24 && Time.now.hour > 17 %>
+  <p><%= t('partials.zen.rss_zero_evening') %></p>
+  <% elsif Time.now.hour < 6 %>
+  <p><%= t('partials.zen.rss_zero_nighttime') %></p>
+  <% end %>
   <p>
     <small>
       <%= t('partials.zen.gtfo') %> <span id="gtfo"><%= t('partials.zen.go_make') %></span>.
