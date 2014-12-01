@@ -1,6 +1,6 @@
 <div class="row-fluid">
   <div class="pull-left">
-    <span class="brand"><%= t('layout.title') %></span>
+    <span class="brand"><a href="/"><%= t('layout.title') %></a></span>
     <!-- BEGIN old 'mark as read' and 'refresh' buttons
     <a class="btn" id="mark-all" title="<%= t('partials.action_bar.mark_all') %>">
       <i class="icon-ok"></i>
@@ -14,12 +14,21 @@
   </div>
 
   <div class="pull-right">
+    <!-- BEGIN favourites link
     <a class="btn btn-primary" id="starred" href="/starred" title="<%= t('partials.action_bar.starred_stories') %>">
       <i class="icon-star"></i>
     </a>
+    END favourites link -->
+    <!-- BEGIN older link
     <a class="btn btn-primary" id="archive" href="/archive" title="<%= t('partials.action_bar.archived_stories') %>">
       <i class="icon-time"></i>
     </a>
+    END older link -->
+    <!-- BEGIN personalised link -->
+    <a class="brand" id="archive" href="/archive" title="<%= t('partials.action_bar.archived_stories') %>">
+      Personalised
+    </a>
+    <!-- END personalised link -->
     <a class="btn btn-primary" id="feeds" href="/feeds" title="<%= t('partials.action_bar.view_feeds') %>">
       <i class="icon-list"></i>
     </a>

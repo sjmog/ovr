@@ -57,6 +57,10 @@ code {
   width: 18px;
 }
 
+.brand {
+  font-size: 28px;
+}
+
 .btn {
   position: relative;
   top: 0px;
